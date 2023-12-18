@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>grid layout</title>
+    
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 30px 20px;
+        }
+        .category{
+            background-color: burlywood;
+            padding: 20px;
+            border: 1px solid;
+            text-align: center;
+        }
+        .cat1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .cat2{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            padding: 100px;
+        }
+        .cat7{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+
+    </style>
+         
 </head>
 <body>
+    <div class="container">
+        <div class="category cat1">company logo and slogan</div>
+        <div class="category cat2">header</div>
+        <div class="category cat3">Navigation</div>
+        <div class="category cat4"></div>
+        <div class="category cat5"></div>
+        <div class="category cat6"></div>
+        <div class="category cat7">About</div>
+        <div class="category"></div>
+        <div class="category"></div>
+        <div class="category"></div>
+
+
+    </div>
     
 </body>
 </html>

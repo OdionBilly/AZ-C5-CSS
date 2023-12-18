@@ -24,8 +24,6 @@
     margin-top: 30px;
 
 }
-
-
 .item{
     background-color: bisque;
         padding: 25px;
@@ -33,18 +31,28 @@
 /* main section  */
 .container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto ;
     margin-top: 30px;
+    gap:50px;
 
 }
 .category{
-    height: 200px;
     background-color: bisque;
     padding:20px;
     border: 1px solid;
-
+    text-align: center;
 }
-
+.cat1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 50px;
+}
+.cat2{   
+    width: 100%;
+    height: 
+}
 /* footer */
 .footer{
     width: 100%;
